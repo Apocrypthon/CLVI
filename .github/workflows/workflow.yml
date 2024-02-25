@@ -22,4 +22,4 @@ jobs:
         aws-secret-access-key: ${"FkPCwThqIg80uMyqfuCfCFBirt5oMYkajoT/Lnj5"}
         aws-region: us-west-1
       name: Copy to S3
-        run: aws s3 sync ./build/. s3://cleanvegasinitiative.org
+        run: aws s3 sync ./build/. arn:aws:s3:::cleanvegasinitiative.org
